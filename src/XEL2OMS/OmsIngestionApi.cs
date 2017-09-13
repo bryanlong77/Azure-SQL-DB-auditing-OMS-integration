@@ -54,7 +54,7 @@ namespace XEL2OMS
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            string address = string.Format("https://{0}.ods.opinsights.azure.com/api/logs?api-version=2016-04-01", m_CustomerId);
+            string address = string.Format("https://{0}.ods.opinsights.azure.us/api/logs?api-version=2016-04-01", m_CustomerId);
             Uri uriAddress = new Uri(address);
 
             byte[] payload = Encoding.UTF8.GetBytes(requestBody);
