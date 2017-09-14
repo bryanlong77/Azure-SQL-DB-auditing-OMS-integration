@@ -1,4 +1,4 @@
-#Azure SQL DB Auditing log integration into OMS
+ #Azure SQL DB Auditing log integration into OMS for Government
 
 This is a **sync application** that runs in Azure and utilizes OMS public APIs to push SQL audit logs into OMS.
 
